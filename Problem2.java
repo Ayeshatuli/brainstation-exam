@@ -44,7 +44,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine());
         
-        while(sc.hasNextLine()){
+		for (int i = 0; i < n; i++){
             String[] text = (sc.nextLine()).split(" ");
             Solution tempVar = new Solution();
             tempVar.setId(Integer.parseInt(text[0]));
